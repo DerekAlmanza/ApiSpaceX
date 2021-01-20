@@ -1,5 +1,11 @@
 # SpaceXapi
 
+This is a functional program that visualizes the launches of SpaceX!
+
+## Pre-Installation Requisites
+
+Install the software requisites with `npm i bootstrap jquery popper.js`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
 ## Development server
