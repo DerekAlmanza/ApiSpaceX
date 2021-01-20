@@ -1,0 +1,22 @@
+<section id = "launches">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6-col-md-4">
+                <div class="card_launch">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p>
+                                <img class = "img-fluid" src="{{launch.links.patch.small}}" alt="">
+                            </p>
+                            <h4 class="card-title"> {{launch.name}}</h4>
+                            <p routerLink = "{{launch.id}}"class="card-id"><i>Id: </i>{{launch.id}}</p>
+                            <p class="card_sucess"><b>Viaje resultó: </b>{{launch.success}}</p>
+                            <p class="card_date"><b>Fecha de despegue: </b>{{launch.date_local}}</p>
+                            <p class="card-text">{{launch.details}}</p>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

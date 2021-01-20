@@ -1,0 +1,40 @@
+#launches {
+    border-radius: .75rem;
+    background: #f9f9f9 !important;
+}
+section{
+    padding: 20px 0;
+}
+
+#launches .card{
+     border: none;
+     background: #e8e8;
+}
+
+.card_launch{
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.card_launch .card{
+    min-height: 312px;
+}
+
+.card-id{
+    color: blue;
+    cursor: pointer;
+}
+
+p.card-text,
+h4.card-title{
+    min-height: 100px !important;
+}
+
+.card_launch .card .card-body img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
